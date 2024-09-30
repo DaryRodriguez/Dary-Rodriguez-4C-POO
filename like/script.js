@@ -1,4 +1,4 @@
-function Like(){
-    let num=0;
+function Like(num){
+   
     num++;
 }
