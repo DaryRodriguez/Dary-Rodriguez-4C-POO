@@ -1,16 +1,17 @@
 *{
-    outline: solid 1px black;
+    /*outline: solid 1px black;*/
 }
 body{
     background-image:url(purple.jfif) ;
     background-size: cover;
 }
 
-#calculator{
+#calculator {
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin: 250px;
+    margin: 2rem auto;
+    max-width: 600px;
 }
 .cero{
     font-size: 25px; 
@@ -25,6 +26,7 @@ body{
     margin: 4px;
     border-radius: 40%;
     box-shadow: 4px 4px black;
+    cursor: pointer;
 }
 .operator{
     background-color: hsl(279, 68%, 54%);
@@ -33,6 +35,7 @@ body{
     margin: 0px;
     border-radius: 40%;
     box-shadow: 4px 4px black;
+    cursor: pointer;
 }
 .button1{
     background-color: rgb(130, 121, 255);
@@ -41,12 +44,13 @@ body{
     border-radius: 40%;
     box-shadow: 4px 4px black;
     margin:5px;
+    cursor: pointer;
 }
 .navbar{
     display: flex; 
     justify-content: space-between;
-    align-content: center;
-    padding: 10px 20px;
+    align-items: center;
+    padding: 1rem 2rem;
     background-color: rgb(190, 126, 250);
     
 }
@@ -67,7 +71,7 @@ h1{
 }
 
 .lista li{
-    margin-right: 250px;
-    list-style-type: none; /*Borra los puntos del navbar*/
+    margin: 0 2rem;
+    list-style-type: none;
 }
 

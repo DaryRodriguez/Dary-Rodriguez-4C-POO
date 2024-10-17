@@ -1,0 +1,20 @@
+*{
+    outline: solid 1px black;
+}
+
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(20, 188, 188);
+}
+
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(151, 36, 166);
+}
