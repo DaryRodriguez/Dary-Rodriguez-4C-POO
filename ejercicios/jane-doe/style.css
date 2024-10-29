@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+*{
+    outline: solid 1px black;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,17 @@ body {
     
     font-family: 'Roboto', sans-serif;
     }
+
+.nav{
+    background-color: black;
+    color: white;
     
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
 .flex-container {
     width: 1000px;
     border: 2px solid black;
@@ -48,9 +60,8 @@ body {
     height: 20px;
     }
     
-a {
-    
-=======
+
+
 * {
     margin: 0;
     padding: 0;
@@ -62,10 +73,10 @@ body {
     }
     
 .flex-container {
-    width: 1000px;
+    width: 700px;
     border: 2px solid black;
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 300px;
     }
     
 .user-card {
@@ -82,10 +93,7 @@ body {
     padding: 50px;
     }
     
-.card-body h1,
-.card-body h2,
-.card-body h3,
-.card-body p {
+ p {
     margin: 20px 0px;
     }
     
@@ -99,8 +107,31 @@ body {
 .icon-s {
     height: 20px;
     }
-    
-a {
-    
->>>>>>> 9cd617631d5e12a315685643e0f225a329137170
-    }
+
+.educ{
+    margin: 0 auto;
+    outline: solid rgb(0, 0, 0);
+    width: 635px;
+    margin-top: 50px;
+    padding: 2em; 
+  
+
+}
+.educ2{
+    width: 675px;
+    margin-left: -32px;
+    margin-top: -33px;
+    color:white;
+    font-size: 10px;
+    background-color: grey;
+    padding: 12px;
+}
+h3{
+    font-size: 25px;
+    margin-top: 14px;
+}
+h5{
+    font-size: 18px;
+}
+
+

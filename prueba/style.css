@@ -61,7 +61,7 @@ h1{
     color:rgb(0, 0, 0);
 }
 
-.lista{
+a{
     display: flex;
     justify-content: center;
     margin-right: 20px;
