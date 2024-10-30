@@ -71,7 +71,7 @@ a{
 }
 
 .lista li{
-    margin: 0 2rem;
+   margin-left: 20px;
     list-style-type: none;
 }
 
